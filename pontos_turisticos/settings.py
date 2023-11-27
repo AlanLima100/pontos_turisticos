@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['pontos-turisticos-476f86549b7f.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['https://pontos-turisticos-2eb7a9a4c268.herokuapp.com/']
+#'pontos-turisticos-476f86549b7f.herokuapp.com', 'localhost:8000'
 #isso só vale quando o DEbug tá false se true nem olha pra isso aqui.
 
 # Application definition
